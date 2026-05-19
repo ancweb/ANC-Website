@@ -1,19 +1,9 @@
-export default function sitemap() {
+import { MetadataRoute } from "next";
+
+export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: "https://anc-website-blond.vercel.app",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://anc-website-blond.vercel.app/team",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://anc-website-blond.vercel.app/blog",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://anc-website-blond.vercel.app/support",
       lastModified: new Date(),
     },
   ];
