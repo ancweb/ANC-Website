@@ -10,6 +10,7 @@ import {
   interNationalTeamData,
   pclubTeamData,
   outreachTeamData,
+  igtsTeamData,
   mediaTeamData,
   webTeamData,
 } from "@/components/Teams/teamsData";
@@ -39,6 +40,7 @@ export default function Home() {
       <Team teamSectionData={interNationalTeamData} />
       <Team teamSectionData={pclubTeamData} />
       <Team teamSectionData={outreachTeamData} />
+      <Team teamSectionData={igtsTeamData} />
       <Team teamSectionData={mediaTeamData} />
       <Team teamSectionData={webTeamData} />
     </main>
