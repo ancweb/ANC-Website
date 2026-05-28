@@ -68,12 +68,12 @@ const IsecData: TeamSection = {
 
 const cdevTeamMebers: Team[] = [
   {
-    id: 6,
+    id: 4,
     icon: "/images/wings/CareerWing/piyush9.jpeg",
     title: "Piyush Prashant Wagh",
     designation: "Manager",
     role: "Career Development Wing",
-    description: "https://in.linkedin.com/in/karmanya-goyal-333b5b1aa",
+    description: "",
     phone: "+91 7796694430",
     email: "",
     linkedin: "https://www.linkedin.com/in/piyushpwagh",
